@@ -157,7 +157,9 @@ body{
 .address-link[target]{
   color: var(--accent-praimery-white-color);
 }
-
+.address-link[target]:hover{
+  color: var(--accent-text-color);
+}
 /* -------PORTFOLIO--------- */
 
 
