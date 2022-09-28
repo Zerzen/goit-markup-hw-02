@@ -7,6 +7,7 @@
   --bcg-color-accent:#2F303A;
   --logo-color-header:#000000;
   --button-bgc-portfolio:#EEEEEE;
+  --hero-button-active:#188CE8;
   --heder-border:#ECECEC;
 }
 /* основной цвет текста #757575 */
@@ -103,7 +104,9 @@ body{
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
-
+.hero-button:hover{
+  background-color: var(--hero-button-active);
+}
 /* --------Section------- */
 
 .section-title,
