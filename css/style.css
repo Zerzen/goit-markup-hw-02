@@ -71,6 +71,9 @@ body{
 }
 .cotnact-nav-link{
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16/14);
 }
 .site-nav-link:hover,
 .site-nav-link:focus,
